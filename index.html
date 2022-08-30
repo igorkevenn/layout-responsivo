@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Document</title>
+    <script>
+		function mostrar(){
+			var menu = document.querySelector('.nav');
+			var topo = document.querySelector('.logo-marca')
+			if(menu.classList.contains('mostrar-menu') && topo.classList.contains('logo-marca-aumento')){
+				menu.classList.remove("mostrar-menu");
+				topo.classList.remove("logo-marca-aumento");
+			}
+			else {
+				menu.classList.add("mostrar-menu");
+				topo.classList.add("logo-marca-aumento");
+			}
+			
+		}
+	</script>
+</head>
+<body>
+    <header class="logo-marca">
+        <h1>Logo do Site</h1>
+        <a onclick="mostrar()" class="toggle-menu"><img src="img/menu-toogle.png" width="50px" height="30px"></a>
+        <nav class="nav">
+            <ul>
+                <a href=""><li>MENU 1</li></a>
+                <a href=""><li>MENU 2</li></a>
+                <a href=""><li>MENU 3</li></a>
+                <a href=""><li>MENU 4</li></a>
+            </ul>
+        </nav>
+    </header>
+    <section id="banner">
+        <img src="img/banner-principal.jpg" alt="">
+    </section>
+    <article id="links">
+        <div id="maravilhas-do-mundo" class="itens-article">
+            <a href=""><img class="imagem-links" src="img/7-maravilhas-mundo.jpg" alt=""></a>
+            <h3>7 Maravilhas do Mundo</h3>
+        </div>
+        <div id="parques" class="itens-article">
+            <a href=""><img class="imagem-links" src="img/parque-disney.jpg" alt=""></a>
+            <h3>Parques Turísticos</h3>
+        </div>
+        <div id="praias" class="itens-article">
+            <a href=""><img class="imagem-links" src="img/praia.jpg" alt=""></a>
+            <h3>Praias</h3>
+        </div>  
+    </article>
+    <section id="texto">
+        <h1>Lorem Ipsum</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate eum minus non dolorum perspiciatis tenetur fuga et officia, tempora in deleniti blanditiis, id modi. Sequi dolores corporis mollitia deserunt ipsum.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis deleniti molestias labore sapiente, quam voluptates quidem distinctio veniam natus quasi, nulla accusantium laborum incidunt autem ea, ratione minima! Ratione, maiores.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis deleniti molestias labore sapiente, quam voluptates quidem distinctio veniam natus quasi, nulla accusantium laborum incidunt autem ea, ratione minima! Ratione, maiores.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis deleniti molestias labore sapiente, quam voluptates quidem distinctio veniam natus quasi, nulla accusantium laborum incidunt autem ea, ratione minima! Ratione, maiores.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis deleniti molestias labore sapiente, quam voluptates quidem distinctio veniam natus quasi, nulla accusantium laborum incidunt autem ea, ratione minima! Ratione, maiores.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis deleniti molestias labore sapiente, quam voluptates quidem distinctio veniam natus quasi, nulla accusantium laborum incidunt autem ea, ratione minima! Ratione, maiores.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis deleniti molestias labore sapiente, quam voluptates quidem distinctio veniam natus quasi, nulla accusantium laborum incidunt autem ea, ratione minima! Ratione, maiores.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis deleniti molestias labore sapiente, quam voluptates quidem distinctio veniam natus quasi, nulla accusantium laborum incidunt autem ea, ratione minima! Ratione, maiores.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis deleniti molestias labore sapiente, quam voluptates quidem distinctio veniam natus quasi, nulla accusantium laborum incidunt autem ea, ratione minima! Ratione, maiores.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis deleniti molestias labore sapiente, quam voluptates quidem distinctio veniam natus quasi, nulla accusantium laborum incidunt autem ea, ratione minima! Ratione, maiores.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis deleniti molestias labore sapiente, quam voluptates quidem distinctio veniam natus quasi, nulla accusantium laborum incidunt autem ea, ratione minima! Ratione, maiores.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis deleniti molestias labore sapiente, quam voluptates quidem distinctio veniam natus quasi, nulla accusantium laborum incidunt autem ea, ratione minima! Ratione, maiores.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis deleniti molestias labore sapiente, quam voluptates quidem distinctio veniam natus quasi, nulla accusantium laborum incidunt autem ea, ratione minima! Ratione, maiores.</p>
+      
+
+    </section>
+    <section id="paises">
+        <div class="box-paises emirados">
+            <img src="img/burj-khalifa.png" alt="">
+            <h2>Emirados Árabes Unidos</h2>
+        </div>
+        <div class="box-paises china">
+            <img src="img/templo-chines.png" alt="">
+            <h2>China</h2>
+        </div>
+        <div class="box-paises franca">
+            <img src="img/torre-eiffel.png" alt="">
+            <h2>França</h2>
+        </div>
+        <div class="box-paises italia">
+            <img src="img/coliseu.png" alt="">
+            <h2>Itália</h2>
+        </div>
+    </section>
+    <footer id="footer">
+        <div>
+            <h2>Entre em contato conosco</h2>
+            <ul class="lista-footer contatos"
+                <li>Ajuda</li>
+                <li>Contato</li>
+                <li>Sobre Nós</li>
+            </ul>
+        </div>
+        <div>
+            <h2>Menu Rápido</h2>
+            <ul class="lista-footer navegacao">
+                <li>Menu 1</li>
+                <li>Menu 2</li>
+                <li>Menu 3</li>
+            </ul>
+        </div>
+        <div id="logo-site">
+            <h1>LOGO DO SITE</h1>
+        </div>
+    </footer>
+</body>
+</html>
